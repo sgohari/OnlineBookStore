@@ -1,0 +1,50 @@
+<resources>
+
+    <!--Styles for activities has been done by Gohary Syed Nasir-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent= "Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="activity_styling">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+    <style name="heading_styling">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+    <style name="button_styling">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+
+    <style name="conform_styling">
+        <item name="android:textSize">10dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+    <style name="conform_edit_styling">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/blackColor</item>
+    </style>
+</resources>

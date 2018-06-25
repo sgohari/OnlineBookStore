@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaymentActivity"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/sbackground">
+
+    <TextView
+        style="@style/heading_styling"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/heading_payment"
+        android:textSize="22dp" />
+
+
+    <RadioGroup
+        android:id="@+id/rgPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/activity_styling"
+            android:id="@+id/rbtnPaypal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/paypal"
+            android:textSize="18dp" />
+
+        <RadioButton
+            style="@style/activity_styling"
+            android:id="@+id/rbtnCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/credit_card"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        style="@style/activity_styling"
+        android:layout_width="366dp"
+        android:layout_height="274dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="132dp">
+
+        <TableRow>
+
+            <TextView
+                style="@style/activity_styling"
+                android:layout_width="161dp"
+                android:layout_height="49dp"
+                android:text="@string/card_number"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/etCardNumber"
+                style="@style/activity_styling"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:hint="@string/card_number"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/activity_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/card_holdername"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/etCardHolderName"
+                style="@style/activity_styling"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:hint="@string/card_holdername" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/activity_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/card_holdername"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                style="@style/activity_styling"
+                android:text="@string/ccv"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/etEpiry"
+                style="@style/activity_styling"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="MM/YY"
+                android:inputType="textPhonetic|date"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/etCVV"
+                style="@style/activity_styling"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="XXX"
+                android:inputType="number"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnPaymentCheckout"
+        style="@style/button_styling"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/btn_bg"
+        android:text="Checkout" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/payments" />
+
+</RelativeLayout>

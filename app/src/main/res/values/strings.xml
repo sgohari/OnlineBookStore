@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Online Book Store</string>
+    <!--Strings for all activities were done by Gohary Syed Nasir-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnsummer_send">Conformation SMS to Customers</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_int_sms">Internet base SMS</string>
+    <string name="send_email">Send email</string>
+    <string name="compose_email">Compose Email</string>
+
+    <string name="heading_payment">Please enter payment Details</string>
+    <string name="networking">Amazon Books Online</string>
+    <string name="paypal">PayPal</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="ccv">CVV</string>
+    <string name="card_holdername">Card Holder Name</string>
+    <string name="expire_date">Expiry Date</string>
+
+    <!--Confirmation Activity strings-->
+    <string name="sub_total">Sub-Total:</string>
+    <string name="subtotal_ammount">$123</string>
+    <string name="estimated_taxes">Estimated Taxes</string>
+    <string name="shipping">Shipping</string>
+    <string name="cost_price">FREE</string>
+    <string name="order_total">Order Total</string>
+    <string name="order_total_amount">$12312</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="confirmation_name">Name</string>
+    <string name="confirmation_address">Address</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="confirmation_phone">Phone</string>
+    <string name="btn_confirm">Comfirm</string>
+
+    <!--cart_list Activity strings-->
+    <string name="book_name">Book Name</string>
+    <string name="book_price">Price</string>
+
+
+    <!--my_list_item Activity strings-->
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="author_price">Price</string>
+    <string name="author_buy_book">Buy This Book</string>
+
+    <!--Summary Activity strings-->
+    <string name="order_summary">Your Order Summary:</string>
+
+    <!--international SMS Activity strings-->
+    <string name="sms_api">API</string>
+    <string name="sms_sender">SENDER</string>
+    <string name="sms_phone">Phone Number</string>
+    <string name="sms_message">TYPE MESSAGE HERE</string>
+    <string name="btn_msgsent">Send</string>
+
+    <!--international SMS Activity strings-->
+    <string name="send_emails">Send email </string>
+
+    <!--dictionary Activity strings-->
+    <string name="search">Search</string>
+    <string name="search_keywards">search keyword</string>
+
+    <!--cart Activity strings-->
+    <string name="sh_cartitem">Shopping Cart Item</string>
+    <string name="btn_checkout">Check Out</string>
+
+    <!--BookReview Activity strings-->
+    <string name="bkreview_info">Review Best Selling Books</string>
+    <string name="bk_toreview_online">To review more books online</string>
+    <string name="bk_click">Click Here</string>
+
+</resources>
